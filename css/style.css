@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.myBody {
+    background-image: linear-gradient(90deg, #0bd2cb, #3992e0, #680bd2);
+    color: white;
+}
+
+/* Estilos del contenedor de mi cabecera */
+
+header {
+    display: flex;
+    width: 100%;
+    position: relative;
+    background-image: linear-gradient(90deg, #0bd2cb, #2e93e6, #680bd2);
+    backdrop-filter: blur(5px);
+    color: #202329;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 20rem;
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+
+/* Estilos del contenedor de mi input */
+
+.contain {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.contain h1{
+    padding-bottom: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #28084ee2;
+    text-shadow: 6px 5px #0fe0fb;
+    font-size: 9rem;
+    font-family: 'Creepster', cursive;
+}
+
+
+/* Estilos de mi input */
+.search {
+    display: flex;
+    width: 65rem;
+    height: 3.5rem;
+    padding: 1.5rem;
+    border-radius: 5px;
+    font-size: 18px;
+    border: hidden;
+    flex-wrap: wrap;
+}
+
+
+/* Estilos para el contenido donde estan las cartas */
+.main_content {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 5rem;
+    padding-top: 6rem;
+}
+
+/* Estilos de la carta */
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 25rem;
+    width: 23rem;
+    margin: 1.2rem;
+    margin-bottom: 4rem;
+    border-radius: 15px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+    transition: transform .2s;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* Estilos para la imagen de la carta */
+.img-gif {
+    border-radius: 15px;
+    height: 20rem;
+    width: 19rem;
+}
